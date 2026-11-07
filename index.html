@@ -244,4 +244,10 @@ html body #features .feature:nth-child(3){transition-delay:.08s!important}
 html body #features .feature:nth-child(4){transition-delay:.12s!important}
 @media(max-width:790px){html body #features .feature{aspect-ratio:auto!important}}
 @media(prefers-reduced-motion:reduce){html body #features .feature,html body #features .feature::before,html body #features .feature::after,html body #features .feature b{transition:none!important;animation:none!important}}
+</style><style id="bazarban-card-grid">
+html body #features .features{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:14px!important}
+html body #features .feature{aspect-ratio:1.08/1!important;min-height:220px!important;padding:18px 16px!important}
+@media(max-width:1050px){html body #features .features{grid-template-columns:repeat(2,minmax(0,1fr))!important}html body #features .feature{aspect-ratio:1.35/1!important;min-height:180px!important}}
+@media(max-width:520px){html body #features .features{grid-template-columns:1fr!important}html body #features .feature{aspect-ratio:auto!important;min-height:0!important;padding:17px 16px!important}}
+@media(prefers-reduced-motion:reduce){html body #features .feature{scroll-behavior:auto!important}}
 </style></body></html>
